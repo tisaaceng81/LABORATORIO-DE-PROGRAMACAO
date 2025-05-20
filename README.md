@@ -109,9 +109,13 @@ ordenar o vetor usando Insertion Sort.
 
  Exemplo de Entrada 
 2 
+
 5 
+
 1 1 1 2 2 
+
 5 
+
 2 1 3 1 2 
  
  
