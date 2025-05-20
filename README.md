@@ -13,27 +13,44 @@ Seu objetivo é escrever um programa que calcule e imprima a probabilidade de
 Alef conseguir escapar do labirinto. 
 
  Regras do Labirinto 
+
 ● Cada célula pode ser: 
+
 ○ Livre (O) 
+
 ○ Obstáculo (#) 
+
 ○ Mina (*) 
+
 ○ Saída (%) 
+
 ○ Alef inicialmente (A) 
+
 ● Alef pode se mover para qualquer célula adjacente (cima, baixo, esquerda, 
 direita) desde que não haja obstáculo. 
+
 ● Túneis conectam pares de células livres e funcionam em duas vias. 
+
 ● O labirinto é cercado por paredes (obstáculos). 
 
  Formato da Entrada 
+
 A primeira linha contém três inteiros: n m k 
+
 ● n: número de linhas da matriz 
+
 ● m: número de colunas 
+
 ● k: número de túneis 
+
 As próximas n linhas contêm m caracteres representando o labirinto. 
+
 As próximas k linhas contêm quatro inteiros i1 j1 i2 j2 
+
 ● Representam as posições (linha, coluna) dos dois extremos de um túnel. 
 
  Formato da Saída 
+
 Um número real representando a probabilidade de Alef escapar do labirinto. 
 Sua resposta será considerada correta se o erro absoluto for menor que 10⁻⁶. 
 
@@ -47,9 +64,13 @@ Sua resposta será considerada correta se o erro absoluto for menor que 10⁻⁶
  Exemplo de Entrada 
 
  -- 3 6 1 
+
  -- ###*OO 
+
  -- O#OA%O 
+
  -- ###*OO  
+
  -- 2 3 2 1
 
 
