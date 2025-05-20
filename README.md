@@ -50,8 +50,8 @@ Sua resposta será considerada correta se o erro absoluto for menor que 10⁻⁶
 O#OA%O 
 ###*OO 
 2 3 2 1 
-✅
- Saída Esperada: 0.25
+
+✅ Saída Esperada: 0.25
 
 Exercício 2: Contando movimento da ordenação 
 
@@ -92,8 +92,8 @@ ordenar o vetor usando Insertion Sort.
 2 1 3 1 2 
  
  
-✅
- Exemplo de Saída 
+✅ Exemplo de Saída 
+
 0 
 4 
 
@@ -131,8 +131,9 @@ Total: 1 notificação enviada.
 A mediana de um conjunto de números é: 
 ● O valor central se o número de elementos for ímpar. 
 ● A média dos dois valores centrais, se o número for par. 
-✅
- Sua Tarefa 
+
+✅ Sua Tarefa 
+
 Implemente uma função que receba: 
 ● expenditure[]: lista de gastos diários 
 ● d: número de dias anteriores usados para calcular a mediana 
@@ -156,9 +157,11 @@ enviadas
  Exemplo de Entrada 
 9 5 
 2 3 4 2 3 6 8 4 5 
-✅
- Exemplo de Saída: 2
+
+✅ Exemplo de Saída: 2
+
  Explicação 
+
 ● No 6º dia, os gastos anteriores são [2, 3, 4, 2, 3], mediana = 3. Gasto 
 = 6 → 6 ≥ 2×3 → notificação. 
 ● No 7º dia, [3, 4, 2, 3, 6], mediana = 3. Gasto = 8 → 8 ≥ 2×3 → 
@@ -220,8 +223,9 @@ reconhecidas pela expressão R.
 ((ab)|(ba)) 2 
 ((a|b)*) 5 
 ((a*)(b(a*))) 100 
-✅
- Exemplo de Saída 
+
+✅ Exemplo de Saída 
+
 2 
 32 
 100 
