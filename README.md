@@ -46,11 +46,11 @@ Sua resposta será considerada correta se o erro absoluto for menor que 10⁻⁶
 
  Exemplo de Entrada 
 
-3 6 1 
-###*OO 
-O#OA%O 
-###*OO  
-2 3 2 1
+ -- 3 6 1 
+ -- ###*OO 
+ -- O#OA%O 
+ -- ###*OO  
+ -- 2 3 2 1
 
 
 ✅ Saída Esperada: 0.25
