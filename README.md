@@ -7,8 +7,8 @@ Você deve ajudar Alef, o Sapo a escapar de um labirinto bidimensional com
 obstáculos, minas, saídas e túneis mágicos. Alef escolhe aleatoriamente uma das 
 células adjacentes livres para se mover. Se cair em uma mina, ele morre. Se chegar 
 a uma saída, ele escapa. Se entrar em um túnel, será transportado para a outra 
-extremidade do túnel. Após o transporte, ele continua normalmente. Escreva nos 
-comentários dos código G1²xB³xR*C³ 
+extremidade do túnel. Após o transporte, ele continua normalmente. 
+
 Seu objetivo é escrever um programa que calcule e imprima a probabilidade de 
 Alef conseguir escapar do labirinto. 
 
