@@ -55,10 +55,15 @@ Um número real representando a probabilidade de Alef escapar do labirinto.
 Sua resposta será considerada correta se o erro absoluto for menor que 10⁻⁶. 
 
  Restrições 
+
 ● 1 ≤ n, m ≤ 20 
+
 ● 0 ≤ k ≤ n*m 
+
 ● Cada célula tem no máximo uma entrada de túnel. 
+
 ● Não há túneis entre células adjacentes. 
+
 ● A célula inicial de Alef aparece exatamente uma vez. 
 
  Exemplo de Entrada 
@@ -89,20 +94,28 @@ Insertion Sort. Toda e qualquer variável do código, deve começar com gcbr.
  Definição 
 Se k[i] é o número de elementos sobre os quais o elemento na posição i teve 
 que passar (deslocar), então o total de deslocamentos é a soma: 
+
 k[1]+k[2]+...+k[n]k[1] + k[2] + ... + k[n] k[1]+k[2]+...+k[n] 
 
  Entrada 
+
 ● Um inteiro t representando o número de casos de teste. 
+
 ● Para cada caso: 
+
 ○ Um inteiro n indicando o tamanho do vetor. 
+
 ○ Uma linha com n inteiros, representando os elementos do vetor. 
 
  Saída 
+
 Para cada caso de teste, imprima o número de deslocamentos necessários para 
 ordenar o vetor usando Insertion Sort. 
 
  Restrições 
+
 ● 1 ≤ t ≤ 15 
+
 ● 1 ≤ n ≤ 100000 
  
 ● 1 ≤ a[i] ≤ 1000000 
@@ -179,12 +192,17 @@ para mediana)
 enviadas 
 
  Restrições 
+
 ● 1 ≤ n ≤ 200000 
+
 ● 1 ≤ d ≤ n 
+
 ● 0 ≤ expenditure[i] ≤ 200 
 
  Exemplo de Entrada 
+
 9 5 
+
 2 3 4 2 3 6 8 4 5 
 
 ✅ Exemplo de Saída: 2
@@ -242,21 +260,30 @@ Para cada caso de teste, imprima uma linha com o número de strings de tamanho L
 reconhecidas pela expressão R. 
 
  Restrições 
+
 ● 1 ≤ T ≤ 50 
+
 ● 1 ≤ |R| ≤ 100 (tamanho da string da expressão) 
+
 ● 1 ≤ L ≤ 10⁹ 
+
 ● Garante-se que a expressão R é válida. 
 
  Exemplo de Entrada 
 3 
+
 ((ab)|(ba)) 2 
+
 ((a|b)*) 5 
+
 ((a*)(b(a*))) 100 
 
 ✅ Exemplo de Saída 
 
 2 
+
 32 
+
 100 
 
  Explicação 
