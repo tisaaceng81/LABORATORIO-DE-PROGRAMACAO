@@ -266,11 +266,13 @@ Entrada:
  
  
 Representação da Árvore:     
+ 
        3 
       / \ 
      2   1 
         / \ 
        4   5 
+
 Saída Esperada: 4
 
 
