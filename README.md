@@ -108,6 +108,7 @@ ordenar o vetor usando Insertion Sort.
 ● 1 ≤ a[i] ≤ 1000000 
 
  Exemplo de Entrada 
+
 2 
 
 5 
